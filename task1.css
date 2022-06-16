@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F8fbf8;
+    font-family: 'Raleway', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+button{
+    width: 150px;
+}
+
+h1{
+    font-weight: 500;
+}
+
+h2{
+    font-weight: 200;
+}
+h3{
+    font-weight: 300;
+}
+
+h4{
+    font-weight: 200;
+}
+
+h5{
+    color: #CC1D4F;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+#logo{
+    max-width: 7%;
+    border-radius: 50%;
+    border: 5px solid gainsboro;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255,255,255,0.7)), url(pictures/round.jpg);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 5%;
+}
+
+.navbar{
+    display: flex;
+    max-width: 100%;
+    padding: 1%;
+    justify-content: space-evenly;
+    border: 1px solid gainsboro;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: flex;
+}
+
+select{
+    border: none;
+    background-color:#F8fbf8 ;
+}
+
+.intro{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #BEBEBE;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 2%;
+}
+
+.download {
+    background-color: #CC1D4F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 270px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.readMore{
+    padding: 10px 15px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #F8fbf8;    
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recentWorks{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    width: 62.5%; 
+    text-align: center; 
+    border-bottom: 1px solid #D5D5D5; 
+    border-top: 1px solid #D5D5D5; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+h2 span { 
+    background: #F8fbf8; 
+    padding:0 20px; 
+}
+
+#rectangle{
+    width: 250px;
+    height: 150px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    border: 2px solid #D5D5D5;
+    padding: 1%;
+    margin-bottom: 2%;
+    border-spacing: 5%;
+    font-size: small;
+    background-color: #EDEDED;
+}
+
+.clients{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    size: 100px;
+    filter: grayscale(1);
+}
+
+.footer{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #242424;
+    color:#F8fbf8;
+    padding: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content:space-between;
+}
+
+.copyright{
+    display: flex;
+    max-width: 100%;
+    background-color: black;
+    color: #F8fbf8;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contact, .follow, .text, .form{
+    margin-right: 5%;
+}
+
+.brand{
+    width: 15%;
+    height: 10%;
+    margin: 2%;
+}
+
+#social{
+    width: 80%;
+}
